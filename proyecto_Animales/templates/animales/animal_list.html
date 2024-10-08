@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Animales</h1>
+   {% for animal in animal_list%}
+   <li>Cuidador: {{ animal.Cuidador }} - Nombre: {{ animal.Nombre }} -  Tipo: {{ animal.Tipo}} </li>
+    {% endfor %}
+</body>
+</html>
